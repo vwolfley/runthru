@@ -1,5 +1,5 @@
-# RunThru Project
-## The Ultimate Race Guide
+# RunThru Project 
+### ***The Ultimate Race Guide***
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![dependencies](https://david-dm.org/vwolfley/MyProject.png)](https://david-dm.org/vwolfley/runthru)
