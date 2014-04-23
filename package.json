@@ -1,0 +1,23 @@
+{
+    "name" : "RunThru",
+    "version" : "1.0.0",
+    "author" : "Vern Wolfley",
+    "twitter": "@vernwolfley",
+    "url": "http://...../",
+    "private" : true,
+
+    "devDependencies" : {
+        "grunt" :                       "~0.4.4",
+        "grunt-contrib-cssmin":         "*",
+        "grunt-contrib-sass":           "*",
+        "grunt-contrib-jshint":         "*",
+        "grunt-contrib-csslint":        "*",
+        "grunt-contrib-uglify":         "*",
+        "grunt-contrib-concat":         "*",
+        "grunt-contrib-watch":          "*",
+        "grunt-cssc":                   "*",
+        "grunt-htmlhint":               "*",
+        "matchdep":                     "*",
+        "jshint-stylish-ex":            "*"
+    }
+}
