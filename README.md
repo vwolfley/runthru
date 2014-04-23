@@ -9,7 +9,7 @@ Run Thru was created to provide detailed race information for various races.  It
 
 ### Version
 
-#### `1.0.0 - 4/01/2012`
+#### `1.1.0 - 4/22/2014`
   
 ### Keywords
 
