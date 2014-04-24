@@ -15,7 +15,8 @@ Major/Minor/Patch 0.0.0
 
 ### Version 1.0.0 (04/01/2012)
 
-* Orginal project files
+* Orginal files copied under //_orginal 
+* Orginal project files added
 
 
 ## Resources / Examples
