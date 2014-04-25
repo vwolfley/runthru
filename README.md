@@ -1,7 +1,11 @@
 # RunThru Project 
 ### ***The Ultimate Race Guide***
 
-[![GitHub version](https://badge.fury.io/gh/vwolfley%2Frunthru.svg)](http://badge.fury.io/gh/vwolfley%2Frunthru)
+ http://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg
+ 
+[![GitHub Version]()]()
+
+[![GitHub version](https://badge.fury.io/gh/vwolfley/runthr.svg)](http://badge.fury.io/gh/vwolfley/runthru)
 
 [![GitHub version](https://badge.fury.io/gh/runthru.svg)](http://github.com/vwolfley/runthru)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
