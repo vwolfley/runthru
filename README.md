@@ -1,6 +1,8 @@
 # RunThru Project 
 ### ***The Ultimate Race Guide***
 
+[![GitHub version](https://badge.fury.io/gh/vwolfley%2Frunthru.svg)](http://badge.fury.io/gh/vwolfley%2Frunthru)
+
 [![GitHub version](https://badge.fury.io/gh/runthru.svg)](http://github.com/vwolfley/runthru)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![dependencies](https://david-dm.org/vwolfley/runthru.png)](https://david-dm.org/vwolfley/runthru)
