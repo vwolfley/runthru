@@ -1,21 +1,22 @@
 module.exports = function(grunt){
-    
+
     "use strict";
 
     require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
     grunt.initConfig({
-        
+
         pkg: grunt.file.readJSON('package.json'),
-        banner: '/*!\n' +
+
+        bannercss: '/*!\n' +
                         '*@concat.min.css\n' +
-                        '*@CSS Document for ..... Website @ MAG\n' +
+                        '*@CSS Document for Run-Thru.com\n' +
                         '*@For Production\n' +
                         '*@<%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %>\n' +
                         '*@author <%= pkg.author %>\n' +
                     '*/\n',
-        
-    
+
+
         htmlhint: {
             build: {
                 options: {
@@ -27,14 +28,14 @@ module.exports = function(grunt){
                     'spec-char-escape': true,              // Force special characters to be escaped
                     'id-unique': true,                     // Prevent using the same ID multiple times in a document
                     'head-script-disabled': true,       // Prevent script tags being loaded in the  for performance reasons
-                    'style-disabled': true,             // Prevent style tags. CSS should be loaded through 
+                    'style-disabled': true,             // Prevent style tags. CSS should be loaded through
                     'curly': true                       // true: Require {} for every new block or scope
                     'strict': false,                    // true: Requires all functions run in ES5 Strict Mode ** Dojo style and existing codebase conflicts **
                 },
                 src: ['index.html']
             }
         },
-        
+
         // CSSLint. Tests CSS code quality
         // https://github.com/gruntjs/grunt-contrib-csslint
         csslint: {
@@ -53,7 +54,7 @@ module.exports = function(grunt){
                     }
             }
         },
-        
+
         jshint: {
                 options: {
                     // strict: true,
@@ -63,12 +64,9 @@ module.exports = function(grunt){
                     curly: true,
                     eqeqeq: true,
                     unused: true,
-                    scripturl: true,
-                    // This option defines globals exposed by the Dojo Toolkit.
-                    dojo: true,
-                    // This option defines globals exposed by the jQuery JavaScript library.
-                    jquery: true,
-                    // Set force to true to report JSHint errors but not fail the task.
+                    scripturl: true,    // This option defines globals exposed by the Dojo Toolkit.
+                    dojo: true,         // This option defines globals exposed by the jQuery JavaScript library.
+                    jquery: true,       // Set force to true to report JSHint errors but not fail the task.
                     force: true,
                     reporter: require("jshint-stylish-ex")
                 },
@@ -76,7 +74,7 @@ module.exports = function(grunt){
                     src : ['src/**/*.js', 'test/**/*.js']
                 }
         },
-        
+
         uglify: {
             options: {
                 // add banner to top of output file
@@ -88,7 +86,7 @@ module.exports = function(grunt){
                 }
             }
         },
-        
+
         cssmin: {
             add_banner: {
                 options: {
@@ -101,11 +99,11 @@ module.exports = function(grunt){
                 }
             }
         },
-        
+
         concat: {
             options: {
               stripBanners: true,
-              banner: '<%= banner %>'
+              bannercss: '<%= banner %>'
             },
             target: {
               src: ["../build/css/normalize.min.css", "../build/css/main.min.css"],
@@ -127,14 +125,14 @@ module.exports = function(grunt){
                 tasks: ['buildcss']
             }
         }
-        
+
     });
 
     // the default task can be run just by typing "grunt" on the command line
     grunt.registerTask('default', ['jshint', 'less']);
     // this would be run by typing "grunt test" on the command line
     grunt.registerTask('test', ['jshint', 'less']);
-    grunt.registerTask('bbuildcss', ['jshint', 'uglify', 'less']);
+    grunt.registerTask('buildcss', ['jshint', 'uglify', 'less']);
     grunt.registerTask('production', ['jshint', 'uglify', 'less']);
 
 };
