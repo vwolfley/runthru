@@ -588,6 +588,9 @@
 	},
 	"file_history":
 	[
+		"/Users/vernwolfley/Documents/webProjects/RunThruProject/deploy/index.html",
+		"/Users/vernwolfley/Documents/webProjects/RunThruProject/deploy/CHANGELOG.md",
+		"/Users/vernwolfley/Documents/webProjects/RunThruProject/deploy/css/main.css",
 		"/Users/vernwolfley/Documents/RunThruProject/Project/CHANGELOG.md",
 		"/Users/vernwolfley/Documents/RunThruProject/Project/css/main.css",
 		"/Users/vernwolfley/Documents/RunThruProject/Project/index.html",
@@ -712,10 +715,7 @@
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/reference.txt",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/colorRamp-view.html",
 		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/demographic-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/demographicChartHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/helpers/layer-delegate.js",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/demographicSelFeaturesHelp-view.html",
-		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/selectedFeaturesTabPage-view.html"
+		"/I/Projects/ArcGIS Server/10.2/javascript_apps/Demographics/deploy/build_working/app/views/demographicChartHelp-view.html"
 	],
 	"find":
 	{
@@ -996,7 +996,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 148.0
+		"height": 29.0
 	},
 	"output.git":
 	{
@@ -1043,6 +1043,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 266.0,
+	"side_bar_width": 244.0,
 	"status_bar_visible": true
 }
